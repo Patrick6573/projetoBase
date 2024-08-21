@@ -3,7 +3,8 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
-class Navegacao extends Controller{
+class Parametro extends Controller{
+    
     public function any($param){
         echo "Parametro recuperado " .$param;
     }
@@ -19,4 +20,26 @@ class Navegacao extends Controller{
     public function alphanum($param){
         echo "Valor recuperado " . $param;
     }
+    public function home(){
+        return view('main');
+    }
+    public function produtos(){
+        return view('produtos');
+    }
+    public function contato(){
+        return view('contato');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
