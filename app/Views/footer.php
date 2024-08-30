@@ -17,11 +17,12 @@
                     <img src="recursos/imagens/whatsapp.png" alt="WhatsApp">
                 </a>
             </div>
-            <div>
-             Todos os Direitos Reservados
+        </div>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <h6>Todos os Direitos Reservados &copy; <?=date('Y')?></h6>
             </div>
         </div>
-
     </div>
 
 
