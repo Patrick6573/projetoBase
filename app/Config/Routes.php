@@ -29,19 +29,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
- $routes->get('home','Parametro::home');
- $routes->get('produtos','Parametro::produtos');
- $routes->get('nav','Navegacao::nav');
-
-
- $routes->get('any/(:any)','Parametro::any/$1');
- $routes->get('any2/(:any)/(:any)','Parametro::any2/$1/$2');
- $routes->get('num/(:num)','Parametro::num/$1');
- $routes->get('alpha/(:alpha)','Parametro::alpha/$1');
- $routes->get('alphanum/(:alphanum)','Parametro::alphanum/$1');
- $routes->get('contato', 'Parametro::contato');
- 
-
+    $routes->get('teste', 'Page::teste');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -1,0 +1,14 @@
+body{
+    background-color: #28251E;
+    color: white;
+}
+
+.nav-link{
+    color: #FFA54C;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #ffc926;
+    text-decoration: underline;
+}
