@@ -10,9 +10,9 @@
         </div>
       
         <div class="col p-3 d-flex flex-row justify-content-end">
-            <div > <a href="" class="nav-link m-5"> Início </a> </div>
-            <div> <a href="" class="nav-link m-5"> Cursos </a> </div>
-            <div> <a href="" class="nav-link m-5"> Onde Estamos? </a> </div>
+            <div > <a href="<?=base_url('home')?>" class="nav-link m-5"> Início </a> </div>
+            <div> <a href="<?=base_url('produtos')?>" class="nav-link m-5"> Cursos </a> </div>
+            <div> <a href="<?=base_url('ondeEstamos')?>" class="nav-link m-5"> Onde Estamos? </a> </div>
         </div>
     </div>
 

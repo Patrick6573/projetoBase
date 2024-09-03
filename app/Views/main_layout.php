@@ -11,6 +11,7 @@
     
     
     <?=$this->include('nav')?>
+    <?=$this->renderSection('content')?>
     <?=$this->include('footer')?>
     <script src="<?=base_url('recursos/bootstrap/bootstrap.bundle.min.js')?>"></script>
 </body>

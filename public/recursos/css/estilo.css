@@ -12,3 +12,12 @@ body{
     color: #ffc926;
     text-decoration: underline;
 }
+.curso-box{
+    background-color: #2f2b24;
+    border-radius:  25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.curso-color{
+    color: #ffc926;
+}
